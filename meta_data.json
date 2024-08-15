@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "visual elements",
+        "1": "technical"
+    },
+    "description": "Detect when an element is in view and trigger actions when it enters or exits the view.\nPlugin uses IntersectionObserver native browser function and doesn't use any external library.\nReady to new responsive engine.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1656074468290x493473000268469500/1472457.png",
+    "instructions": "To use, you have to point the On Screen Detector element to the ID of the element you want to monitor.\nIn your project settings, under General, make sure \"Expose the option to add an ID attribute to HTML elements\" is enabled. \nNow go to your element's properties, at the bottom you will see \"ID attribute\". Add a name here, then in the On Screen Protector properties, add it under ID.\nAlternatively leave it as \"This\" to detect the On Screen Detector itself.",
+    "license": "private",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API",
+    "name": "Visibility Detector",
+    "plugin_instructions": "Place the Visibility Detector element inside the group or Repeating Group cell and you can use in workflow actions Visibility Detector enters screen or Visibility Detector exits screen.\n\nAlso you can use Visibility Detector state if it's visible or not.\n\nTo detect another element with certain ID make sure \"Expose the option to add an ID attribute to HTML elements\" is enabled in your app settings in General section and you can set ID of needed element in the bottom of the element properties.\n\nYou can leave ID field default value as \"id\" to detect Visibility Detector itself.\n\nAlso, you can set timeout to delay action (useful to show some content in repeating group lately). For example, you can use \"current cell index * 100\" as timeout and condition to show you main content group in RG when Visibility Detector in this cell is visible so content will be showed later. Be sure to put Visibility Detector outside of hidden group."
+}

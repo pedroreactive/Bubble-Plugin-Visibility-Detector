@@ -1,0 +1,12 @@
+{
+    "assets": {
+        "ABp": {
+            "name": "eye2.svg",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1656081805029x913531435020611200/eye2.svg"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": "3",
+        "use_jquery": true
+    }
+}
